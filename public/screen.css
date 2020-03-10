@@ -4,9 +4,76 @@
 
 html {
   height: 100%;
+  background-color: #008BA1;
+  margin-top: 0.5rem;
+  margin-left: 17rem;
+  margin-right: 17rem;
+  margin-bottom: 40rem;
 }
 
 body {
   margin: 0;
-  min-height: 100%;
+  background-color: #DDF3F3;
+}
+
+h1 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0rem;
+}
+
+nav {
+  display: flex;
+  background-color: #00BFD5;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  padding: 1rem;
+  margin: 0
+}
+
+main {
+  display: flex;
+}
+
+.top-navigation {
+  text-decoration: underline;
+}
+
+.kitty-pic {
+  margin: 1em;
+  border: .1em;
+  border-style: solid;
+  padding: .3rem;
+}
+
+src {
+  padding: 1em;
+}
+
+h3 {
+  align-self: center;
+  margin: .5rem;
+}
+
+p {
+  font-size: large;
+}
+
+.nav-bottom {
+  background-color: #D3D3D3;
+  color: black;
+  text-decoration: underline;
 }
